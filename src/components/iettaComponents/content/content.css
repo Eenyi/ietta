@@ -1,0 +1,11 @@
+.ietta-content {
+    max-width: 80%;
+    margin: 2% 2% 2% 1%;
+    padding: 2% 2% 2% 1%;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+    color: var(--forground-color);
+    background-color: silver;
+    border-radius: 1rem;
+}

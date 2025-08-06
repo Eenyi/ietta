@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  /* Hide scrollbars */
+}
+
+:root {
+  /* Color Configuration for Light Mode */
+  --background-color: white;
+  --forground-color: black;
+  /* Theme Color Configuration */
+  --theme-color: #ff8a1e;
+  --translucent-theme-color: #ff8b1eaf;
+  /* Assist Color Configuration */
+  --Assist-color: gray;
+  /* Text Color Configuration */
+  --text-color-light: white;
+  --text-color-dark: black;
+  --text-color-theme: #ff8a1e;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  background-color: var(--theme-color);
+  border: 1px solid var(--forground-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  transition: 1s;
+  background-color: var(--forground-color);
+}
+
+/* dark theme not stable right now */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Color Configuration for Dark Mode */
+    --background-color: rgb(26, 24, 24);
+    --forground-color: white;
+    /* Theme Color Configuration */
+    --theme-color: dodgerblue;
+    --translucent-theme-color: rgba(30, 143, 255, 0.507);
+    /* Assist Color Configuration */
+    --Assist-color: silver;
+    /* Text Color Configuration */
+    --text-color-light: black;
+    --text-color-dark: white;
+    --text-color-theme: dodgerblue;
+  }
+}

@@ -1,0 +1,44 @@
+.wp-otr-alert {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: var(--theme-color);
+    position: absolute;
+    z-index: 11;
+    margin-right: 0;
+    top: 2%;
+    right: 1%;
+
+    border-radius: 1rem;
+    border-bottom: 5px solid var(--forground-color);
+    transition: .5s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wp-alert-topic {
+    display: flex;
+    width: 95%;
+    height: 30px;
+}
+
+.wp-alert-text {
+    display: flex;
+    width: 95%;
+    height: 65px;
+}
+
+.alert-topic {
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--forground-color);
+}
+
+.alert-text {
+    padding: 1%;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--forground-color);
+}

@@ -1,0 +1,126 @@
+.wp-otr-del-proj {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 11;
+
+    background-color: rgba(255, 255, 255, 0.075);
+    -webkit-backdrop-filter: blur(8px);
+    -o-backdrop-filter: blur(8px);
+    -moz-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.wp-inr-del-proj {
+    display: flex;
+    width: 370px;
+    height: 220px;
+    border-radius: 0.5rem;
+    background-color: var(--theme-color);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wp-inr-top-del {
+    display: flex;
+    width: 98%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.alert-text {
+    color: var(--forground-color);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.wp-hr-del {
+    border: 1px solid var(--forground-color);
+    width: 70%;
+    margin-top: 1px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.wp-inr-del-text {
+    display: flex;
+    width: 85%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.caution-text {
+    color: var(--forground-color);
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.check-text {
+    color: var(--forground-color);
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 12px;
+}
+
+.wp-checkbox {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.checkbox {
+    background-color: var(--theme-color);
+    color: var(--theme-color);
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    width: 1.15em;
+    height: 1.15em;
+    transform: translateY(-0.075em);
+}
+
+.wp-del-btn {
+    display: flex;
+    width: 370px;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+.cancel-btn {
+    margin-left: 190px;
+}
+
+.delete-btn {
+    color: white;
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-weight: 600;
+    border-radius: 20px;
+    background-color: red;
+    border: 2px solid transparent;
+}
+
+.delete-btn:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}

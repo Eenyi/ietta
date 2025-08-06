@@ -1,0 +1,11 @@
+.ietta-heading {
+    padding: 3% 2% 1% 3%;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--theme-color);
+}
+
+.ietta-heading-hr {
+    margin-left: 2%;
+    border: 1px solid var(--theme-color);
+}

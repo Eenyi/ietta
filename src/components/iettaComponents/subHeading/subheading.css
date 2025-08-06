@@ -1,0 +1,11 @@
+.ietta-subheading {
+    padding: 1% 1% 0% 3%;
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--Assist-color);
+}
+
+.ietta-subheading-hr {
+    margin-left: 2%;
+    border: 1px solid var(--Assist-color);
+}

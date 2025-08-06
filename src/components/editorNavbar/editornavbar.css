@@ -1,0 +1,34 @@
+.wp-upr-editorNav {
+  display: flex;
+  width: 99%;
+  height: 25%;
+  color: var(--theme-color);
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  line-height: 25px;
+  flex-direction: column;
+  font-weight: 700;
+  font-family: "Segoe UI";
+}
+
+.wp-editorNav {
+  display: flex;
+  width: 99%;
+  height: 90%;
+  color: var(--background-color);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.replyIcon:hover {
+  transition: .3s all ease-in-out;
+  cursor: pointer;
+  color: var(--theme-color);
+}
+
+.wp-hr-nav {
+  border: 1px solid var(--background-color);
+  width: 60%;
+}

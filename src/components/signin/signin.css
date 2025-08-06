@@ -1,0 +1,59 @@
+.wp-signin {
+  height: inherit;
+  width: 80%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.wp-form-input {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-input-style {
+  background-color: var(--forground-color);
+  padding: 7.5px;
+  border: none;
+  color: var(--background-color);
+  border-radius: 20px;
+}
+.form-input-style:focus {
+  /*This class is to solve TC_UI_010 */
+  outline: none;
+}
+
+.form-input-style::placeholder {
+  color: var(--background-color);
+  text-align: left;
+}
+
+.form-btn-style {
+  background-color: var(--theme-color);
+  display: flex;
+  width: 70px;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color-dark);
+  padding: 8px;
+  font-weight: 500;
+  border-radius: 20px;
+  border: none;
+}
+.wp-otr-form {
+  display: flex;
+}
+.wp-input-logo {
+  background-color: var(--theme-color);
+  padding: 7.5px;
+  font-weight: 500;
+  border-radius: 20px 0 0 20px;
+  transform: translateX(5px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

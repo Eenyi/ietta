@@ -1,0 +1,90 @@
+.wp-otr-uf {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 90%;
+}
+
+.wp-uf-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+}
+
+.wp-top-file {
+    width: 100%;
+    height: 10%;
+}
+
+.file-header {
+    color: var(--foreground-color);
+    font-size: 41px;
+    font-weight: 500;
+}
+
+.wp-inr-form {
+    width: 100%;
+    height: 81%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wp-uf-fields {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.file-upload-input {
+    width: 250px;
+    height: 40px;
+    background-color: var(--forground-color);
+    padding: 7.5px;
+    border: none;
+    color: var(--background-color);
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wp-uf-label {
+    margin-right: 5%;
+}
+
+.wp-uf-upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.file-upload-input::before {
+    text-align: center;
+}
+
+.file-upload-input::-webkit-file-upload-button {
+    display: none;
+}
+
+.file-upload-btn {
+    color: var(--forground-color);
+    background-color: var(--theme-color);
+    border: none;
+    border-radius: 1rem;
+    width: 100px;
+    font-weight: 600;
+}
+
+.file-upload-btn:hover {
+    background-color: var(--forground-color);
+    color: var(--theme-color);
+    transition: 1s;
+    cursor: pointer;
+}

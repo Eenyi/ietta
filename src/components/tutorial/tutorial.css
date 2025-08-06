@@ -1,0 +1,40 @@
+@keyframes changeImages {
+    0% {
+      background-image: url('./../../empty_page_gifs/tutorial_png/dark\ \(1\).png');
+      object-fit: cover;
+    }
+    33.33% {
+      background-image: url('./../../empty_page_gifs/tutorial_png/dark\ \(4\).png');
+      object-fit: cover;
+    }
+    66.66% {
+      background-image: url('./../../empty_page_gifs/tutorial_png/dark\ \(5\).png');
+      object-fit: cover;
+    }
+    100% {
+      background-image: url('./../../empty_page_gifs/tutorial_png/dark\ \(6\).png');
+      object-fit: cover;
+    }
+  }
+  
+  .image-container {
+    animation-name: changeImages;
+    animation-duration: 8s; /* one cycle takes 3 seconds */
+    animation-iteration-count: infinite; /* loop forever */
+    background-repeat: no-repeat;
+    border: 5px solid var(--theme-color);
+    border-radius: 1rem;
+    height: 330px;
+    width: 550px;
+  }
+
+  .wp-inr-tutorial {
+    height: 400px;
+    width: 600px;
+    gap: .5rem;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    flex-direction: column;
+}
+  

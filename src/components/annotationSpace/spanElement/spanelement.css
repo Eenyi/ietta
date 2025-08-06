@@ -1,0 +1,19 @@
+.wp-spn-outer {
+  cursor: pointer;
+  padding: .1rem !important;
+  /* transition: 2s !important; */
+}
+
+.wp-spn-outer .span-tag-sp {
+  padding: 0 .15rem .1rem .15rem !important;
+  margin: 0rem !important;
+}
+
+.span-tag-sp {
+  background-color: white !important;
+  color: var(--theme-color);
+  padding: .2rem !important;
+  border-radius: 0 0 0 .5rem;
+  margin-right: .2rem;
+  font-weight: bolder !important;
+}

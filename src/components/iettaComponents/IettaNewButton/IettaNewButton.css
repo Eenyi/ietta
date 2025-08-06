@@ -1,0 +1,44 @@
+ /* .wp-btn-label {
+   text-align: center;
+   padding-top: 10%;
+
+   //copied these line from nav bar since this font since is the theme.
+   font-weight: 500;
+   font-size: 17px;
+   gap: 20px;
+   cursor: default;
+ } */
+
+ .wp-add-Btn {
+   margin: 3% 3% 3% 3%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   height: 10rem;
+   width: 10rem;
+   border-radius: 35px;
+ }
+
+
+ .wp-btn-symbol {
+   display: flex;
+   width: 38%;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--forground-color);
+   border-radius: 16px;
+   padding: 2px;
+   cursor: pointer;
+   color: var(--background-color);
+   border: 2px solid var(--theme-color);
+   transform: translate(-.6rem, -.6rem);
+ }
+
+ .wp-btn-symbol:hover {
+   transition: 0.5s ease-in-out;
+   color: var(--theme-color);
+ }
+
+ .wp-add-icon {
+   margin-top: 10%;
+ }

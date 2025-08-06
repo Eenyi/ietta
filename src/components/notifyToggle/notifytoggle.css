@@ -1,0 +1,115 @@
+.fade-in-out {
+    transition: all 5s ease-in-out;
+    /* other styles */
+  }
+  
+.fade-in-out.hidden {
+    display: none;
+    /* other styles */
+}
+
+.wp-otr-notify {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   position: absolute;
+   z-index: 1;
+
+   background-color: rgba(255, 255, 255, 0.075);
+    -webkit-backdrop-filter: blur(8px);
+    -o-backdrop-filter: blur(8px);
+    -moz-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.wp-inr-notify {
+    height: 45%;
+    width: 35%;
+    flex-direction: column;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: .5em;
+
+}
+
+.wp-notify-content {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-color);
+    color: var(--text-color-dark);
+    border-radius: 1rem;
+}
+
+.wp-otr-notify-msg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+}
+
+.wp-inr-notify-spin {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    object-position: 0rem 0rem;
+    animation-name: spinner;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateX(500px);
+}
+
+.wp-otr-notify-spin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+}
+
+.notify-head {
+    width: 100%;
+    height: 30%;
+    font-size: 38px; 
+    font-weight: 600;
+    margin: 20px 0px 0px 30px;
+}
+
+.notify-body {
+    width: 100%;
+    height: 50%;
+    margin: 0px 0px 0px 30px;
+    font-weight: 600;
+}
+
+.notify-footer {
+    width: 100%;
+    height: 20%;
+    margin: 0px 0px 0px 30px;
+    font-size: 12px;
+}
+
+@keyframes spinner {
+    0%, 100% {
+      transform: rotate(-4deg);
+    }
+    25% {
+        transform: translateX(50px);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    75% {
+      transform: rotate(6deg);
+    }
+}
+

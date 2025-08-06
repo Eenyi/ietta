@@ -1,0 +1,63 @@
+.wp-otr-navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.wp-navbar-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wp-inr-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+
+.wp-navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35%;
+}
+/*this is a css selector that select every img tag in side class wp-navbar-log */
+.wp-navbar-logo img {
+  content: url("../../images/navbar_dark_2.png");
+}
+@media (prefers-color-scheme: dark) {
+  .wp-navbar-logo img {
+    content: url("../../images/navbar_dark.png");
+  }
+}
+.wp-navbar-control,
+.wp-navbar-logout,
+.wp-control-content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 20px;
+}
+.wp-control-content {
+  cursor: pointer;
+  
+}
+
+.wp-navbar-logout:hover,
+.wp-control-content:hover {
+  color: var(--forground-color);
+  background-color: var(--background-color);
+  transition: 0.8s;
+  border-radius: 13px;
+}

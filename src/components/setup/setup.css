@@ -1,0 +1,6 @@
+.otr-setup {
+    width: 96%;
+    height: 90%;
+    display: flex;
+    overflow-y: scroll;
+}

@@ -1,0 +1,46 @@
+.wp-file-c-m {
+    width: fit-content;
+    height: max-content;
+    padding: 5px;
+    position: absolute;
+    background-color: var(--theme-color);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 3;
+    margin-left: -28rem;
+    border-radius: .5rem;
+    gap: 5px;
+    font-weight: bolder;
+}
+
+.close-icon {
+    display: flex;
+    width: 100%;
+    margin-bottom: -10px;
+    justify-content: flex-end;
+}
+
+.imported-project {
+    width: 105px;
+    background-color: transparent;
+}
+
+.imported-project::-webkit-file-upload-button {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.imported-project:hover {
+    cursor: pointer;
+}
+
+.imported-project::before {
+    text-align: center;
+    content: 'Import Project ';
+}

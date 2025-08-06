@@ -1,0 +1,16 @@
+.wp-items {
+  display: block;
+  padding: 8px;
+  text-align: left;
+  border-radius: 0.5rem;
+  width: fit-content;
+  color: var(--forground-color);
+  transition: 0.3s ease-in-out;
+}
+
+.wp-items:hover {
+  color: var(--background-color);
+  background-color: var(--forground-color);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}

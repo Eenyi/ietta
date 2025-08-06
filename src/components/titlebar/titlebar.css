@@ -1,0 +1,51 @@
+.wp-otr-titlebar {
+  width: 96%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  background-color: var(--forground-color);
+  border-radius: 0.5rem;
+}
+
+.wp-inr-titlebar-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  font-size: 2%;
+  cursor: pointer;
+}
+
+.wp-inr-titlebar-icon {
+  color: var(--background-color);
+}
+
+.wp-inr-titlebar-icon:hover {
+  transition: 0.5s ease-in-out;
+  color: var(--theme-color);
+}
+
+.wp-inr-titlebar-img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  border-radius: 100vh;
+}
+
+.title-img {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.wp-inr-titlebar-text {
+  display: flex;
+  width: 80%;
+  width: fit-content;
+  color: var(--theme-color);
+  font-weight: 600;
+  font-size: 22px;
+  cursor: default;
+}

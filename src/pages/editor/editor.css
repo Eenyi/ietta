@@ -1,0 +1,41 @@
+.wp-otr-editor {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--forground-color);
+}
+.wp-otr-editor .wp-inr-editor:nth-child(1) {
+  width: calc(4%);
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--forground-color);
+  transition: 1s;
+}
+.wp-otr-editor .wp-inr-editor:nth-child(2) {
+  width: calc(96% - 0.5rem);
+  height: calc(100vh - 1.5rem);
+  border-radius: 0.5rem;
+  background-color: var(--background-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 1s;
+}
+.wp-inr-editor-comps {
+  width: 96%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: 1s;
+}

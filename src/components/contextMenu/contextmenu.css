@@ -1,0 +1,58 @@
+.menu {
+  border-radius: 0.5rem;
+  background-color: var(--theme-color);
+  opacity: 90%;
+  box-shadow: 2px 2px var(--forground-color);
+  width: 180px;
+  height: 230px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.wp-inr-menu {
+  width: 99%;
+  height: 180px;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+.wp-inr-menu::-webkit-scrollbar {
+  width: 7px;
+}
+
+.main-text {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: -17px;
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.hr-menu {
+  border: 1px solid var(--forground-color);
+  width: 100%;
+  transition: 1s;
+  margin-bottom: 3px;
+}
+
+.wp-search-cm {
+  background-color: var(--forground-color);
+  padding: 2.5px;
+  border: none;
+  color: var(--background-color);
+  border-radius: 18px;
+  width: 120px;
+  text-align: left;
+  margin-top: .1rem;
+  margin-bottom: .4rem;
+}
